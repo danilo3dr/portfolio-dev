@@ -34,8 +34,8 @@ main {
         justify-items: center;
         gap: 24px;
 
-        li{
-            width: 320px;
+        li{ 
+            width: 330px;
             height: 280px;
             padding: 12px;
             list-style: none;
@@ -48,9 +48,13 @@ main {
                 border-radius: 8px;
                 margin-bottom: 8px;
             }
+
             div {
+                display: grid;
                 padding: 4px;
+                gap: 8px;
             }
+
             h3 {
                 font: var(--title-sm);
                 color: var(--base-color-gray-100);
@@ -61,13 +65,18 @@ main {
                 color: var(--base-color-gray-200);
             }
         }
+
+        li:hover {
+            border: 2px solid var(--base-color-gray-300);
+        }
     }
 }
 
 #services {
     display: grid;
     justify-content: center;
-    padding-bottom: 120px;
+    padding-block: 88px 120px;
+    padding-inline: 120px;
     background-color: var(--base-color-gray-600);
     gap: 56px;
 
@@ -77,10 +86,13 @@ main {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         gap: 24px;
+
         li{
+            display: grid;
             width: 280px;
-            height: 150px;
-            padding: 12px;
+            height: 155px;
+            padding: 20px;
+            gap: 20px;
             list-style: none;
             border-radius: 12px;
             border: solid 2px  var(--base-color-gray-500);

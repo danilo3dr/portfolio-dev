@@ -6,8 +6,8 @@ header {
     background-image: url("../assets/images/Background_Intro.png");
     background-size: cover;
     background-position: center center;
-    margin-top: 96px;
-    margin-bottom: 60px;
+    padding-top: 80px;
+    margin-block: 16px 60px;
 }
 
 #info {
@@ -21,6 +21,7 @@ header {
 }
 
 #info #avatar {
+    margin-top: 8px;
     border: 2px solid var(--main-color-red);
     border-radius: 50%;
     height: 96px;

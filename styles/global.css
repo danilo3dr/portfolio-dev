@@ -20,7 +20,7 @@
 
     --font-family-title: 'Asap', 'sans-serif';
     --font-family-subtitle: 'Inconsolata', 'sans-serif';
-    --font-family-text: 'Inconsolata', 'sans-serif';
+    --font-family-text: 'Maven pro', 'sans-serif';
 
 
     --title-lg: bold 56px/120% var(--font-family-title);
@@ -46,13 +46,21 @@ body {
     font: var(--text-md);
 }
 
-a {
+a, p, span {
     text-decoration: none;
     color: inherit;
 }
 
 h1, h2, h3 {
     color: inherit;
+}
+
+h2 {
+    font: var(--title-md);
+}
+
+h3 {
+    font: var(--title-sm);
 }
 
 
@@ -82,4 +90,20 @@ h1, h2, h3 {
 
 .devops {
     background-image: url(../assets/icons/Infinity.svg);
+}
+
+.linkedin {
+    background-image: url(../assets/icons/LinkedinLogo.svg);
+}
+
+.instagram {
+    background-image: url(../assets/icons/InstagramLogo.svg);
+}
+
+.email {
+    background-image: url(../assets/icons/EnvelopeSimple.svg);
+}
+
+.github-logo {
+    background-image: url(../assets/icons/GithubLogo.svg);
 }
