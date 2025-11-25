@@ -108,7 +108,9 @@ main {
 
             div {
                 padding: 4px;
+                width: 240px;
             }
+            
             h3 {
                 font: var(--title-sm);
                 color: var(--base-color-gray-100);
