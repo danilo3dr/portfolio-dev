@@ -1,0 +1,1 @@
+Para executar faça um clone do repositório e execute o index.html pelo navegador
