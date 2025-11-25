@@ -1,0 +1,141 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-image: url("../assets/images/Background_Intro.png");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 96px;
+    margin-bottom: 60px;
+}
+
+#info {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 56px;
+    
+}
+
+#info #avatar {
+    border: 2px solid var(--main-color-red);
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;      /* centraliza horizontal */
+    align-items: center;
+    position: relative;
+    img {
+        width: 85px;
+        border-radius: 50%;
+    }
+
+    a {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background-image: url(../assets/icons/Code.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 65px;
+        left: 70px;
+    }
+}
+
+#info #presentation{
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+
+    span {
+        font: var(--subtitle);
+        color: var(--base-color-gray-200);
+        text-align: center  ;
+    }
+
+    #name {
+        color: var(--main-color-red);
+    }
+
+    h1 {
+        font: var(--title-lg);
+        color: var(--base-color-gray-100)
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--base-color-gray-300);
+        text-align: center  ;
+    }
+
+    
+}
+
+#tags {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    .tag {
+        display: flex;
+        gap: 8px;
+        padding-inline: 16px;
+        padding-block: 8px;
+        background-color: var(--base-color-gray-400);
+        border-radius: 20px;
+    }
+
+    .github a{
+        width: 20px;
+        height: 20px;
+        background-image: url(/assets/icons/GitHub.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    .html a{
+        width: 20px;
+        height: 20px;
+        background-image: url(/assets/icons/HTML.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    .css a{
+        width: 20px;
+        height: 20px;
+        background-image: url(/assets/icons/CSS.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    .nodejs a{
+        width: 20px;
+        height: 20px;
+        background-image: url(/assets/icons/Node.js.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+header a:last-child{
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/icons/CaretDoubleDown.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
