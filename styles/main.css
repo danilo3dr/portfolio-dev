@@ -1,0 +1,111 @@
+main {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.sub-header {
+    display: grid;
+    text-align: center;
+    
+    gap: 8px;
+
+    p:first-child {
+        color: var(--main-color-red);
+        font: var(--subtitle);
+    }
+
+    h2:last-child{
+        font: var(--title-md);
+    }
+}
+
+#projects {
+    display: grid;
+    grid-template-rows: 61px 1fr;
+    padding: 72px 120px 144px 120px;
+    gap: 56px;
+
+    
+
+    #highlights {
+        display: grid;
+        max-width: 1040px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 24px;
+
+        li{
+            width: 320px;
+            height: 280px;
+            padding: 12px;
+            list-style: none;
+            background-color: var(--base-color-gray-400);
+            border-radius: 12px;
+            text-align: left;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+                margin-bottom: 8px;
+            }
+            div {
+                padding: 4px;
+            }
+            h3 {
+                font: var(--title-sm);
+                color: var(--base-color-gray-100);
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--base-color-gray-200);
+            }
+        }
+    }
+}
+
+#services {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 120px;
+    background-color: var(--base-color-gray-600);
+    gap: 56px;
+
+    ul {
+        display: grid;
+        max-width: 888px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 24px;
+        li{
+            width: 280px;
+            height: 150px;
+            padding: 12px;
+            list-style: none;
+            border-radius: 12px;
+            border: solid 2px  var(--base-color-gray-500);
+            text-align: left;
+
+            a {
+                display: inline-block; /*para poder aceitar altura e largura*/
+                width: 48px;
+                height: 48px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            div {
+                padding: 4px;
+            }
+            h3 {
+                font: var(--title-sm);
+                color: var(--base-color-gray-100);
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--base-color-gray-200);
+            }
+        }
+    }
+}

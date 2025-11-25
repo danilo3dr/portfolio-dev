@@ -94,41 +94,14 @@ header {
         border-radius: 20px;
     }
 
-    .github a{
+    a{
         width: 20px;
         height: 20px;
-        background-image: url(/assets/icons/GitHub.svg);
         background-size: contain;
         background-repeat: no-repeat;
         
     }
 
-    .html a{
-        width: 20px;
-        height: 20px;
-        background-image: url(/assets/icons/HTML.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-    }
-
-    .css a{
-        width: 20px;
-        height: 20px;
-        background-image: url(/assets/icons/CSS.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-    }
-
-    .nodejs a{
-        width: 20px;
-        height: 20px;
-        background-image: url(/assets/icons/Node.js.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-    }
 }
 
 header a:last-child{

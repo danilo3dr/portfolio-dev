@@ -54,3 +54,32 @@ a {
 h1, h2, h3 {
     color: inherit;
 }
+
+
+.github {
+    background-image: url(/assets/icons/GitHub.svg);
+}
+
+.html {
+    background-image: url(/assets/icons/HTML.svg);   
+}
+
+.css{
+    background-image: url(/assets/icons/CSS.svg); 
+}
+
+.nodejs{
+    background-image: url(/assets/icons/Node.js.svg);
+}
+
+.website {
+    background-image: url(../assets/icons/Devices.svg);
+}
+
+.api-banco {
+    background-image: url(../assets/icons/HardDrives.svg);
+}
+
+.devops {
+    background-image: url(../assets/icons/Infinity.svg);
+}
